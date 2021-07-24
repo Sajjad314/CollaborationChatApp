@@ -73,7 +73,7 @@ public class Users {
         this.lastMessage = lastMessage;
     }
 
-    public String getUserId() {
+    public String getUserId(String key) {
         return userId;
     }
 
