@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "493388281819",
+    "project_id": "neat-roots-whatsapp-e1509",
+    "storage_bucket": "neat-roots-whatsapp-e1509.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493388281819:android:be1f953d67de735c9399fe",
+        "android_client_info": {
+          "package_name": "com.example.whatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493388281819-umlmvq613u574a762mfgl7laeqg8gvqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU0ZuVj5aCda346fkHhqtqlyvArj5WURw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "493388281819-umlmvq613u574a762mfgl7laeqg8gvqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
