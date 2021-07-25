@@ -30,8 +30,13 @@ public class Users {
 
         }
 
+    public String getUserId() {
+        return userId;
+    }
 
-
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
 
     public String getProfile_pic() {
         return profile_pic;
@@ -73,11 +78,5 @@ public class Users {
         this.lastMessage = lastMessage;
     }
 
-    public String getUserId(String key) {
-        return userId;
-    }
 
-    public void setUserId(String userId) {
-        this.userId = userId;
-    }
 }
