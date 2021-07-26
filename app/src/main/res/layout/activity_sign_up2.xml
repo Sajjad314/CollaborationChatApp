@@ -24,7 +24,7 @@
             android:id="@+id/img"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            app:srcCompat="@drawable/ic_whatsapp"
+            app:srcCompat="@mipmap/ic_launcher_round"
             tools:ignore="VectorDrawableCompat" />
 
         <EditText
@@ -75,7 +75,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="15dp"
-            android:background="@color/colorPrimary"
+            android:background="#5C84DC"
             android:padding="15dp"
             android:shadowRadius="5"
             android:text="SIgn Up"
@@ -85,40 +85,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="10dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"/>
 
-            <Button
-                android:id="@+id/btn_google"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="6dp"
-                android:layout_marginRight="6dp"
-                android:layout_weight="1"
-                android:background="@color/white"
-                android:drawableLeft="@drawable/ic_search"
-                android:padding="15dp"
-                android:text="Google" />
-
-            <Button
-                android:id="@+id/btn_fb"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@color/fb_color"
-                android:drawableLeft="@drawable/ic_facebook"
-                android:padding="15dp"
-                android:text="Facebook" />
-        </LinearLayout>
-
-        <TextView
-            android:id="@+id/signUpPhone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:text="Sign up with Phone"
-            android:textColor="@color/colorPrimary"
-            android:textSize="20sp"
-            app:autoSizeMaxTextSize="150dp" />
     </LinearLayout>
 
 </LinearLayout>

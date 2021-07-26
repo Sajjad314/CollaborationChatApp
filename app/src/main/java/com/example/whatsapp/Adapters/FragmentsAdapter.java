@@ -43,10 +43,10 @@ public class FragmentsAdapter extends FragmentPagerAdapter {
             title = "CHATS";
         }
         if(position==1){
-            title = "STATUS";
+            title = "CALLS";
         }
         if(position==2){
-            title = "CALLS";
+            title = "APP INF";
         }
         return title;
     }

@@ -101,28 +101,16 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
-                android:id="@+id/imageView8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:id="@+id/imageView9"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginRight="10dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.428"
-                app:srcCompat="@drawable/ic_baseline_more_vert_24" />
-
-            <ImageView
-                android:id="@+id/imageView9"
-                android:layout_width="26dp"
-                android:layout_height="26dp"
-                android:layout_marginEnd="15dp"
-                android:layout_marginRight="15dp"
-                app:tint="@color/white"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/imageView8"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@android:drawable/presence_video_away" />
+                app:srcCompat="@android:drawable/presence_video_away"
+                app:tint="@color/white" />
 
             <ImageView
                 android:id="@+id/imageView10"

@@ -1,5 +1,9 @@
 <resources>
-    <string name="app_name">WhatsApp</string>
+    <string name="app_name">Chirkut</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">You did not make any call yet.</string>
+    <string name="about">Chirkut is a simple chatting app. This is where u can make a home
+        for your communities and friends, where you can stay close and have fun over text.
+        If u have some friends who want to spend together Chirkut makes it easy to talk everyday
+        and hangout more often.</string>
 </resources>
