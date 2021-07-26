@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "493388281819",
+    "firebase_url": "https://neat-roots-whatsapp-e1509-default-rtdb.firebaseio.com",
     "project_id": "neat-roots-whatsapp-e1509",
     "storage_bucket": "neat-roots-whatsapp-e1509.appspot.com"
   },
@@ -13,6 +14,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "493388281819-ur10atp5bdirof2o21vgdklectsj1pu5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.whatsapp",
+            "certificate_hash": "da1ad76f061a3af822270bba8777137559c88a1a"
+          }
+        },
         {
           "client_id": "493388281819-umlmvq613u574a762mfgl7laeqg8gvqe.apps.googleusercontent.com",
           "client_type": 3
