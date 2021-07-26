@@ -29,15 +29,18 @@
         android:gravity="center"
         android:orientation="vertical">
 
-        <ImageView
+        <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profile_image"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            app:srcCompat="@drawable/avatar"
-            app:tint="@color/white" />
+            android:src="@drawable/avatar"
+            tools:ignore="VectorDrawableCompat"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp"
+            />
 
         <ImageView
             android:id="@+id/plus"
@@ -102,6 +105,7 @@
         </LinearLayout>
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/saveButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
